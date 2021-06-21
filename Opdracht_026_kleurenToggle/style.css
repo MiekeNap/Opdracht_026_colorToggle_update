@@ -1,0 +1,61 @@
+body {
+   background-color:beige;
+} 
+
+.hamburger {
+    width: 60px;
+    height: 60px;
+    background-image: url(hamburger_menu.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+    cursor: pointer;
+}
+
+ul {
+    width: 250px;
+    height: calc(100vh - 60px);
+    cursor: pointer;
+}
+
+.open {
+     visibility: visible;     
+}
+
+.closed {
+    visibility: hidden;
+}
+
+li {
+   list-style: none;
+   line-height: 60px;
+   display: block;
+   height: 60px;
+   padding: 0 20px ;
+   margin: 10px -50px;
+   font-weight: bold;
+}
+
+#home, .beige-background {
+    background-color: beige;
+}
+
+#red, .red-background {
+      background-color:red;
+}
+
+#orange, .orange-background {
+    background-color:orange;
+}
+
+#yellow, .yellow-background {
+    background-color:yellow;
+}
+
+#green, .green-background {
+    background-color:green;
+}
+
+#blue, .blue-background {
+    background-color:blue;
+}
